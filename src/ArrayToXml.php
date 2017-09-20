@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\ArrayToXml;
+namespace gima89\ArrayToXml;
 
 use DOMElement;
 use DOMDocument;
@@ -224,12 +224,12 @@ class ArrayToXml
     protected function createRootElement($rootElement)
     {
         if (is_string($rootElement)) {
-            $rootElementName = $rootElement ?: 'root';
+            $rootElementName = $rootElement ? $rootElement : 'root';
 
             return $this->document->createElement($rootElementName);
         }
 
-        $rootElementName = $rootElement['rootElementName'] ?? 'root';
+        $rootElementName = $rootElement['rootElementName'] ? $rootElement['rootElementName'] : 'root';
 
         $element = $this->document->createElement($rootElementName);
 
