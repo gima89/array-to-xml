@@ -16,6 +16,12 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "url": "https://github.com/gima89/array-to-xml.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "php" : "^5.5 || ^7.0"
     },
