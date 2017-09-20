@@ -1,12 +1,12 @@
 {
-    "name": "spatie/array-to-xml",
+    "name": "gima89/array-to-xml",
     "description": "Convert an array to xml",
     "keywords": [
         "convert",
         "array",
         "xml"
     ],
-    "homepage": "https://github.com/spatie/array-to-xml",
+    "homepage": "https://github.com/gima89/array-to-xml",
     "license": "MIT",
     "authors": [
         {
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\ArrayToXml\\": "src"
+            "gima89\\ArrayToXml\\": "src"
         }
     },
     "autoload-dev": {
